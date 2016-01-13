@@ -3,8 +3,11 @@
 ---
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import 'logo';
 
-$navbar-height: 100px;
+$navbar-height: 110px;
+
+$main-color: #863b00;
 
 * {
   font-family: 'Open Sans', sans-serif;
@@ -15,7 +18,32 @@ html {
 }
 
 body {
+  background: darken($main-color, 15%);
+}
+
+.body {
+  background: white;
   padding-top: $navbar-height;
+}
+
+.navbar-default {
+  .navbar-toggle, .navbar-toggle:hover, .navbar-toggle:focus {
+    border-color: white;
+    background: transparent;
+
+    .icon-bar {
+      background-color: white;
+    }
+  }
+
+  .navbar-collapse {
+    background-color: transparentize($main-color, 0.2);
+
+    &.collapse.in, &.collapsing {
+      margin-top: 16px;
+      height: 100%;
+    }
+  }
 }
 
 .content {
@@ -36,8 +64,13 @@ body {
     }
   }
 
+  h1, h2, h3, h4, h5 {
+    color: $main-color;
+  }
+
   h2 {
     margin-top: 40px;
+    margin-bottom: 20px;
   }
 
   h3 {
@@ -45,22 +78,42 @@ body {
   }
 }
 
+.transition {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 .animated-header {
-  background: white;
+  background: linear-gradient(0deg, darken($main-color, 3%), $main-color 6%);
   font-size: 120%;
   padding: 27px 0;
   border: 0;
 
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+  @extend .transition;
 
   * {
-    font-weight: 700;
+    font-weight: 500;
+    color: white !important;
+  }
+
+  .container {
+    padding: 0 30px;
   }
 
   .title {
-    font-size: 180%;
+    @extend .transition;
+    float: right;
+    font-weight: 700;
+    margin-top: -9px;
+  }
+
+  .icon-logo-simple {
+    @extend .transition;
+    font-size: 52px;
+    margin-top: -18px;
+    margin-right: 10px;
+    float: left;
   }
 }
 
@@ -73,7 +126,14 @@ body {
   transition: all 0.3s;
 
   .title {
+    @extend .transition;
     display: none;
+  }
+
+  .icon-logo-simple {
+    @extend .transition;
+    font-size: inherit;
+    margin: 0;
   }
 }
 
@@ -114,16 +174,20 @@ body {
       margin: auto;
     }
 
-    .logo {
-      width: 200px;
+    .icon-logo {
+      font-size: 200px;
 
       @media (max-width: 768px) {
-        width: 80px;
+        font-size: 80px;
       }
     }
 
-    h1 {
+    h1, h2, .icon-logo {
       color: white;
+      text-shadow: 2px 2px 7px darken($main-color, 20%);
+    }
+
+    h1 {
       font-weight: 700;
       font-size: 72px;
 
@@ -171,6 +235,8 @@ body {
     h3 {
       margin-top: 15px;
       font-weight: 700;
+      font-size: 20px;
+      color: black;
     }
 
     p {
@@ -205,7 +271,7 @@ body {
 .footer {
   width: 100%;
 
-  background-color: black;
+  background: linear-gradient(180deg, darken($main-color, 18%), darken($main-color, 15%) 6%);
   padding: 30px 0;
 
   color: white;
