@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'logo';
-  src:    url('/fonts/logo.eot?h74vvo');
-  src:    url('/fonts/logo.eot?h74vvo#iefix') format('embedded-opentype'),
-  url('/fonts/logo.ttf?h74vvo') format('truetype'),
-  url('/fonts/logo.woff?h74vvo') format('woff'),
-  url('/fonts/logo.svg?h74vvo#logo') format('svg');
+  src:    url($base-url + '/fonts/logo.eot?h74vvo');
+  src:    url($base-url + '/fonts/logo.eot?h74vvo#iefix') format('embedded-opentype'),
+  url($base-url + '/fonts/logo.ttf?h74vvo') format('truetype'),
+  url($base-url + '/fonts/logo.woff?h74vvo') format('woff'),
+  url($base-url + '/fonts/logo.svg?h74vvo#logo') format('svg');
   font-weight: normal;
   font-style: normal;
 }
