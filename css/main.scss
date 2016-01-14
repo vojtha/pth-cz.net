@@ -4,7 +4,7 @@
 
 $base-url: "{{ site.baseurl }}";
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,400italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,800,400italic&subset=latin,latin-ext);
 @import 'logo';
 
 $navbar-height: 110px;
