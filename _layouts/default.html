@@ -15,7 +15,7 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-    <link rel="shortcut icon" type="image/png" href="{{ /images/favicon.png | prepend: site.baseurl }}"/>
+    <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png"/>
   </head>
 
   <body>
@@ -34,9 +34,10 @@
 
       ga('create', 'UA-2063092-23', 'auto');
       ga('send', 'pageview');
+
     </script>
-    <script src="/scripts/classie.js"></script>
-    <script src="/scripts/animated_header.js"></script>
+    <script src="{{ site.baseurl }}/scripts/classie.js"></script>
+    <script src="{{ site.baseurl }}/scripts/animated_header.js"></script>
   </body>
 
 </html>
