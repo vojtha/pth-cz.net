@@ -1,5 +1,7 @@
 # pth-cz.net
 
+[![Build Status](https://travis-ci.org/yetty/pth-cz.net.svg?branch=master)](https://travis-ci.org/yetty/pth-cz.net)
+
 ## Fotky Tyrannů, Ex-Tyrannů a vedení
 
 Fotky se nacházejí v adresáři `/images/tyranni/` a jejich názvy mají podobu `jmeno-prijmeni.jpg` (vždy **bez diakritiky
