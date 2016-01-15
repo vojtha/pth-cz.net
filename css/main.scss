@@ -10,6 +10,7 @@ $base-url: "{{ site.baseurl }}";
 $navbar-height: 110px;
 
 $main-color: #863b00;
+$header-background: linear-gradient(0deg, darken($main-color, 3%), $main-color 6%);
 
 * {
   font-family: 'Open Sans', sans-serif;
@@ -85,8 +86,9 @@ body {
   transition: all 0.3s;
 }
 
+
 .animated-header {
-  background: linear-gradient(0deg, darken($main-color, 3%), $main-color 6%);
+  background: $header-background;
   font-size: 120%;
   padding: 27px 0;
   border: 0;
@@ -138,9 +140,19 @@ body {
   .animated-header {
     background: transparent;
 
+
+    @media (max-width: 768px) {
+      padding: 4px 0;
+      background: $header-background;
+    }
+
     * {
       color: white !important;
     }
+  }
+
+  .animated-header-shrink {
+    background: $header-background;
   }
 
   header {
