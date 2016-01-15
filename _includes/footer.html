@@ -6,16 +6,21 @@
 
         <ul>
           {% include menu.html %}
+          <li>&nbsp;</li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="https://github.com/yetty/pth-cz.net">GitHub</a></li>
         </ul>
       </div>
       <div class="col-sm-4">
-        <h3>&nbsp;</h3>
+        <h3><a href="{{ site.baseurl }}/clanky/">Články</a></h3>
         <ul>
-          <li><a href="#">GitHub</a></li>
+          {% for post in site.posts|limit:7 %}
+          <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
         </ul>
       </div>
       <div class="col-sm-4">
-        <h3>Kontakt</h3>
+        <h3><a href="{{ site.baseurl }}/kontakt/">Kontakt</a></h3>
         <p>
           <strong>Pražský Tyrannus Hall</strong><br>
           Stoliňská 41b<br>

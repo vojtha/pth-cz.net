@@ -1,9 +1,11 @@
 ---
 layout: page
-title: News
+title: Články
 permalink: /clanky/
 ---
 
 {% for post in site.posts %}
-  {{ post.output }}
+  <h2>{{ post.title }}</h2>
+  <p>{{ post.excerpt | strip_html }}</p>
+  <p><a href="{{ site.baseurl }}{{ post.url }}">Přečíst celý článek…</a></p>
 {% endfor %}

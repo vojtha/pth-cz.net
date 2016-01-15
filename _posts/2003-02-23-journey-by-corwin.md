@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tyrannus Hall Journey"
+categories: historie
+---
+
+
+<p class="lead">By Chuck Corwin.</p>
+
+Today in Tokyo we celebrate with you the goodness and faithfulness of God to the Brethren Church. Familiar faces come to mind. I see Karel Taschner welcoming unknown Christian brothers from the West 10 years ago. That simple act of charity started us all down an untravelled road. Then appear Pavel and Míla Štifter with František, working on logistics for the journey. When we began to falter, up steps Pavel Černý to keep us on track. Wondering what we would do at the end of the journey when the very reason of the journey must be translated into action, Tomáš Grulich comes into view. Of course, walking with you from the outset are seven members of the Olsen family. While supporting and encouraging you, they beckoned us to join that small band. You can see some of them sitting near you today.
+
+What I cannot see in my mind’s eye is the first batch of Tyrannus Hall students. Please stand now, so everyone can see you. It is for you and those who follow you that this Hall is built. Young men, you have a solemn responsibility to leave behind clearly marked footprints, so this hall becomes and remains in perpetuity not a house of convenience but a home of conviction, courage and consecration. Only you can make that happen.
+
+For over 40 years students in Asian Halls have left unmistakable footprints, some leading downward, some upward. You can profit from their successes and failures. But before learning from them, I ask that you learn from the first Hall, the one established by Paul in Ephesus. Note in Acts 19:9, that the Ephesus Hall happened because of opposition to the Gospel. Similarly, 1900 years later, the first Tyrannus Hall in Asia was conceived not because Japanese were responding tot the Gospel but precisely because they were not. I believe you are in the same situation there in Chvaly, a salient reason for your making this a Hall of conviction, courage and consecration.
+
+Secondly, note that Paul “reasoned” with the youth in his Hall. “Reasoned” meant literally, “interact with.” Paul interacted with young men in the Ephesus Hall daily. Make this Hall one of vibrant interaction. Learn from each other’s strengths and weaknesses as you carry out the four main activities of the Hall—devotions together, theological lectures together, physical training together, mission outreach together. Are you read for this?
+
+Rewards from you journey together? We read in Acts 19:10 that all those in Asia Minor heard the word of the Lord. Young laymen went out from their Hall equipped and motivated to share Christian faith wherever they went. Let me remind you that Count Zinzendorf had his own Tyrannus Hall in Herrnhut. The Moravian Brethren who gathered there were seized with missionary passion. We in Asia know this. The Moravian Mission reached a distant city called Leh in Tibet in 1857, translated the Scriptures and established a church. Just two months ago, as part of their outreach, students of Delhi Tyrannus Hall journeyed hundreds of miles to Leh to hold evangelistic meetings in the Moravian Church. Only 25 Christian families remain, struggling in a hostile Buddhist and Muslim environment. The Delhi students played their guitar, sang Gospel songs, and gave testimonies. The Tibetan Christians were uplifted. It may fall upon you to visit discouraged and lifeless churches throughout central Europe. You can rekindle their evangelical zeal. You can refresh them. You can inspire them to turn outward as your forebears did in Herrnhut 300 years ago, causing simple laymen to leave comforts of home and go out, “winning for the Lamb that was slain a reward for His sufferings.”
