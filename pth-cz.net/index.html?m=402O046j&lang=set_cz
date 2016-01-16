@@ -10,17 +10,17 @@
  <title>
 Pražský Tyrannus hall </title>
 </head><body><div id="cc">
- <a href="index.html?"><img src="img/logo_mini.png" alt="logo PTH" style="height: 60px; margin: 7px 15px; border: none;" class="fl"/></a>
+ <a href="index.html%3F"><img src="img/logo_mini.png" alt="logo PTH" style="height: 60px; margin: 7px 15px; border: none;" class="fl"/></a>
 <div class="nadpis">
 Pražský Tyrannus hall</div>
 <div class="menu">
- <div class="fr"><a href="index.html?m=402O046j&amp;lang=set_en">english</a></div>
- <a href="index.html?m=2">organizace</a> |
- <a href="index.html?m=1">společenství</a> |
- <a href="index.html?m=3">budova</a> |
- <a href="index.html?m=4">galerie</a>
+ <div class="fr"><a href="index.html%3Fm=402O046j&amp;lang=set_en">english</a></div>
+ <a href="index.html%3Fm=2">organizace</a> |
+ <a href="index.html%3Fm=1">společenství</a> |
+ <a href="index.html%3Fm=3">budova</a> |
+ <a href="index.html%3Fm=4">galerie</a>
 </div>
 <div class="content">
-<a href="index.html?m=402O"><img src="galerie/02/046.jpg" class="w" /></a>
+<a href="index.html%3Fm=402O"><img src="galerie/02/046.jpg" class="w" /></a>
 </div>
 </div></body></html>

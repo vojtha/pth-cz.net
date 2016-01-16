@@ -10,23 +10,23 @@
  <title>
 Prague Tyrannus hall </title>
 </head><body><div id="cc">
- <a href="index.html?"><img src="img/logo_mini.png" alt="logo PTH" style="height: 60px; margin: 7px 15px; border: none;" class="fl"/></a>
+ <a href="index.html%3F"><img src="img/logo_mini.png" alt="logo PTH" style="height: 60px; margin: 7px 15px; border: none;" class="fl"/></a>
 <div class="nadpis">
 Prague Tyrannus hall</div>
 <div class="menu">
- <div class="fr"><a href="index.html?m=26&amp;lang=set_cz">česky</a></div>
- <a href="index.html?m=2">organization</a> |
- <a href="index.html?m=1">community</a> |
- <a href="index.html?m=3">building</a> |
- <a href="index.html?m=4">galery</a>
+ <div class="fr"><a href="index.html%3Fm=26&amp;lang=set_cz">česky</a></div>
+ <a href="index.html%3Fm=2">organization</a> |
+ <a href="index.html%3Fm=1">community</a> |
+ <a href="index.html%3Fm=3">building</a> |
+ <a href="index.html%3Fm=4">galery</a>
 </div>
 <div class="menu">
- <a href="index.html?m=21">Tyrannus Hall &amp; CZ</a> |
- <a href="index.html?m=22">pillars</a> |
- <a href="index.html?m=23">statutes</a> |
- <a href="index.html?m=24">Board &amp; Staff</a> |
- <a href="index.html?m=25">contacts</a> |
- <a href="index.html?m=26">admissions</a> 
+ <a href="index.html%3Fm=21">Tyrannus Hall &amp; CZ</a> |
+ <a href="index.html%3Fm=22">pillars</a> |
+ <a href="index.html%3Fm=23">statutes</a> |
+ <a href="index.html%3Fm=24">Board &amp; Staff</a> |
+ <a href="index.html%3Fm=25">contacts</a> |
+ <a href="index.html%3Fm=26">admissions</a> 
 </div>
 <div class="content">
 <h3>Information for Applicants to the PTH University Discipleship Community</h3>
