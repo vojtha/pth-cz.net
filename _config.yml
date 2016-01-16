@@ -35,5 +35,5 @@ defaults:
 
 # Paths
 
-layouts_dir:  ./_templates
-includes_dir: ./_templates
+layouts_dir:  ./_includes
+includes_dir: ./_includes
