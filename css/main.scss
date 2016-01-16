@@ -2,5 +2,7 @@
 # Do not remove dashes. Needed by Jekyll.
 ---
 
+$base-url: "{{ site.baseurl }}";
+
 @import "base";
 
