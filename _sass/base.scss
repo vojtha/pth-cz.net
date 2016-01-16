@@ -1,0 +1,293 @@
+$base-url: "{{ site.baseurl }}";
+
+$navbar-height: 110px;
+
+$main-color: #863b00;
+$header-background: linear-gradient(0deg, darken($main-color, 3%), $main-color 6%);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,800,400italic&subset=latin,latin-ext);
+@import "logo";
+
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background: darken($main-color, 15%);
+}
+
+.body {
+  background: white;
+  padding-top: $navbar-height;
+}
+
+.navbar-default {
+  .navbar-toggle, .navbar-toggle:hover, .navbar-toggle:focus {
+    border-color: white;
+    background: transparent;
+
+    .icon-bar {
+      background-color: white;
+    }
+  }
+
+  .navbar-collapse {
+    &.collapse.in, &.collapsing {
+      background-color: transparentize($main-color, 0.2);
+      margin-top: 16px;
+      height: 100%;
+    }
+  }
+}
+
+.content {
+
+  p, li {
+    font-size: 20px;
+
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+
+  .lead {
+    font-size: 24px;
+
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
+
+  h1, h2, h3, h4, h5 {
+    color: $main-color;
+  }
+
+  h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    margin-top: 20px;
+  }
+}
+
+.transition {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+
+.animated-header {
+  background: $header-background;
+  font-size: 120%;
+  padding: 27px 0;
+  border: 0;
+
+  @extend .transition;
+
+  * {
+    font-weight: 500;
+    color: white !important;
+  }
+
+  .title {
+    @extend .transition;
+    float: right;
+    font-weight: 700;
+    margin-top: -9px;
+  }
+
+  .icon-logo-simple {
+    @extend .transition;
+    font-size: 52px;
+    margin-top: -18px;
+    margin-right: 10px;
+    float: left;
+  }
+}
+
+.animated-header-shrink {
+  font-size: 100%;
+  padding: 0;
+
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+
+  .title {
+    @extend .transition;
+    display: none;
+  }
+
+  .icon-logo-simple {
+    @extend .transition;
+    font-size: inherit;
+    margin: 0;
+  }
+}
+
+.index {
+  .animated-header {
+    background: transparent;
+
+
+    @media (max-width: 768px) {
+      padding: 4px 0;
+      background: $header-background;
+    }
+
+    * {
+      color: white !important;
+    }
+  }
+
+  .animated-header-shrink {
+    background: $header-background;
+  }
+
+  header {
+    width: 100%;
+    height: 100vh;
+
+    margin-top: -$navbar-height;
+
+    background: url($base-url + "/images/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    .header {
+      position: absolute;
+      top: 50%;
+      text-align: center;
+
+      width: 100%;
+
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+
+    .header-inner {
+      margin: auto;
+    }
+
+    .icon-logo {
+      font-size: 200px;
+
+      @media (max-width: 768px) {
+        font-size: 80px;
+      }
+    }
+
+    h1, h2, .icon-logo {
+      color: white;
+      text-shadow: 2px 2px 7px darken($main-color, 20%);
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 72px;
+
+      @media (max-width: 768px) {
+        font-size: 28px;
+      }
+    }
+
+    h2 {
+      color: #ddd;
+      font-weight: 300;
+      font-size: 34px;
+
+      @media (max-width: 768px) {
+        font-size: 18px;
+      }
+    }
+
+    .btn {
+      margin-top: 60px;
+      border: 2px solid white;
+      font-size: 20px;
+      background: transparent;
+      color: white;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+.thumbnail {
+  border: none;
+
+  img {
+    width: 120px;
+  }
+
+  .caption {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+
+    h3 {
+      margin-top: 15px;
+      font-weight: 700;
+      font-size: 20px;
+      color: black;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 120%;
+    }
+  }
+}
+
+.content {
+  margin-bottom: 50px;
+}
+
+.contact {
+  .map {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.telocvicna {
+  .photos img {
+    margin-bottom: 10px;
+  }
+
+  .calendar {
+    width: 100%;
+    height: 600px;
+  }
+}
+
+.footer {
+  width: 100%;
+
+  background: linear-gradient(180deg, darken($main-color, 18%), darken($main-color, 15%) 6%);
+  padding: 30px 0;
+
+  color: white;
+
+  a {
+    color: #eee;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+}
