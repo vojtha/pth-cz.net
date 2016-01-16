@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "History of THs by Charles Corwin"
 categories: historie
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Give us a 'Cornelius'"
 categories: historie
 ---

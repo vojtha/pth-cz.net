@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "History of the Czech Tyrannus Hall"
 categories: historie
 ---

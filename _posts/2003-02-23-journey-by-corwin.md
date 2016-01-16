@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Tyrannus Hall Journey"
 categories: historie
 ---
