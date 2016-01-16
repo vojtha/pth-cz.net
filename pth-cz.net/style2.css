@@ -1,0 +1,66 @@
+ body {
+ background-color: #877;
+ background-image: url("img/b06.jpg"); background-size: cover;
+ background-position: 50% 20%;
+ background-repeat: no-repeat; background-attachment: fixed;
+}
+
+hr {height: 2px;margin: 10px 0 10px 0; padding: 0; border: none; background: #002;}
+
+h3 {margin: 20px 0 10px 0; padding: 0 10% 2px 0; border: #002 solid; border-width: 0 0 2px 0; font-size: 140%; text-align: center;}
+h4 {margin: 10px 0 5px 0;font-size: 110%; text-decoration: underline;}
+h5 {margin: 7px 0 2px 0;font-size: 100%; text-decoration: none;}
+
+p {margin: 2px 0 2px 0; padding: 0; text-indent: 20px; text-align: justify;}
+
+ul {margin: 5px 0 2px 0; padding: 0; font-weight: bold;}
+ul li{margin: 2px 0 0 30px; padding: 0 0 0 5px; font-weight: normal;}
+
+ol {margin: 5px 0 2px 0; padding: 0; font-weight: bold;}
+ol li{margin: 2px 0 0 30px; padding: 0; font-weight: normal;}
+
+ #cc{ width: 900px; margin: 0 auto; text-align: left;} 
+ 
+ .nadpis {margin: 40px auto 20px; padding: 20px 25px; border-radius: 20px; background: url("img/80.png"); font-size: 30px;}
+ .menu {margin: 15px auto; padding: 10px 15px; border-radius: 10px; background: url("img/b2.png"); font-size: 18px; }
+  .menu a {color: #229; text-decoration: none; font-weight: bold;}
+  .menu .u {text-decoration: none; border: #f00 solid; border-width: 0 0 1px 0; color: #220;}
+ .content {margin: 5px auto; padding: 15px 20px; border-radius: 15px; background: url("img/b2.png"); font-size: 18px;}
+ .aktuality {float: right; width: 200px; margin: 5px auto; padding: 10px; font-size: 9px;}
+ 
+.fl {float: left;}
+.fr {float: right;}
+.cl {clear: left;}
+.cr {clear: right;}
+.ca {clear: both;}
+.al {text-align: left;}
+.ar {text-align: right;}
+.ac {text-align: center;}
+.aj {text-align: justify;}
+.u {text-decoration: underline;}
+.i {font-style: italic;}
+.b {font-weight: bold;}
+.w {width: 100%;}
+.m5{margin: 5px;}
+
+.r1 {color: #800; text-indent: 0;}
+.r2 {color: #008; text-indent: 0;}
+.r3 {color: #080; text-indent: 0;}
+
+.hlavicka {margin: 5px; padding: 5px 35px 5px 180px;
+  background: url("img/logo.png") 5px 30px no-repeat;
+ }
+ .hlavicka b{font-size: 220%;}
+ .hlavicka p{margin: 2px; padding: 0; text-indent: 0; font-size: 110%}
+ .hlavicka small{font-size: 75%;}
+ 
+.prihlaska {width: 100%} 
+ .prihlaska td {width: 33%; padding: 15px 0 10px 0; border: #000 solid; border-width: 0 0 2px 0;}
+ .vmezera {height: 100px;} 
+
+.minimg {width: 22%; margin: 5px; vertical-align: middle;}
+
+.forum {margin: 5px; border: #992 solid; border-width: 0 0 1px 0; padding: 5px;}
+ .autor {font-style: italic; font-weight: bold;}
+ 
+
