@@ -31,9 +31,3 @@ defaults:
       type: "posts" # previously `page` in Jekyll 2.2.
     values:
       layout: "post" # overrides previous default layout
-
-
-# Paths
-
-layouts_dir:  ./_includes
-includes_dir: ./_includes
