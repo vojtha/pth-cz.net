@@ -2,6 +2,14 @@
 layout: default
 ---
 
+<script>
+  var getParams = window.location.search.substring(1).split('&');
+
+  if (getParams.length > 0) {
+    window.location.href = getParams.join('/') + '.html';
+  }
+</script>
+
 <div class="index">
 
   <nav class="navbar navbar-default navbar-fixed-top animated-header">
@@ -44,4 +52,5 @@ layout: default
 
   {% include footer.html %}
 </div>
+
 
