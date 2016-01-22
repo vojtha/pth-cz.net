@@ -1,9 +1,8 @@
 ---
 title:  "Give us a 'Cornelius'"
 categories: historie
+author: Steve Olsen
 ---
-
-<p class="lead">By Steve Olsen as told to Don Crawfod.</p>
 
 Some people would have called our trip foolhardy. But I kept telling myself we were acting on faith.
 

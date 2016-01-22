@@ -1,10 +1,9 @@
 ---
 title:  "Tyrannus Hall Journey"
 categories: historie
+author: Charles Corwin
 ---
 
-
-<p class="lead">By Chuck Corwin.</p>
 
 Today in Tokyo we celebrate with you the goodness and faithfulness of God to the Brethren Church. Familiar faces come to mind. I see Karel Taschner welcoming unknown Christian brothers from the West 10 years ago. That simple act of charity started us all down an untravelled road. Then appear Pavel and Míla Štifter with František, working on logistics for the journey. When we began to falter, up steps Pavel Černý to keep us on track. Wondering what we would do at the end of the journey when the very reason of the journey must be translated into action, Tomáš Grulich comes into view. Of course, walking with you from the outset are seven members of the Olsen family. While supporting and encouraging you, they beckoned us to join that small band. You can see some of them sitting near you today.
 

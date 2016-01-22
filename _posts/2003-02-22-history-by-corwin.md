@@ -1,10 +1,11 @@
 ---
 title:  "History of THs by Charles Corwin"
 categories: historie
+author: Charles Corwin
 ---
 
 
-<p class="lead">By Charles Corwin Excerpt taken from a talk given at the South Asia Tyrannus Halls Conclave.</p>
+<p class="lead">Excerpt taken from a talk given at the South Asia Tyrannus Halls Conclave.</p>
 
 ## Introduction
 
