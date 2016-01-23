@@ -20,3 +20,15 @@ markdown: kramdown
 gems:
   - jekyll-redirect-from
 
+# Defaults settings
+defaults:
+  -
+    scope:
+      path: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "post" # overrides previous default layout
