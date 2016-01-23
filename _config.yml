@@ -16,6 +16,7 @@ url: "https://yetty.github.io"
 
 # Build settings
 markdown: kramdown
+relative_permalinks: true
 
 gems:
   - jekyll-redirect-from
