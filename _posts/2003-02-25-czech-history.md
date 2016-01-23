@@ -1,6 +1,7 @@
 ---
 title:  "History of the Czech Tyrannus Hall"
 categories: historie
+layout: post
 ---
 
 The Czech Republic, with a population of 10 million, is situated in the heart of Central Europe. While it has a rich Christian history, 40 years of communism effectively wiped faith in God from the current generation. In 2002, the United Nations issued a report listing the Czech Republic as the 2nd most atheistic country in the world. Yet deep down many are searching for meaning. The communists left another legacy: a crippled church with few trained pastors and weak lay leadership. Though a committed remnant persevered; the church remains for most Czechs an archaic and irrelevant institution. There is a great need for young, bright, national Christians to penetrate the church and society at every level with the relevant message of the living Lord.

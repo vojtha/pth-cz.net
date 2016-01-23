@@ -2,6 +2,7 @@
 title:  "Give us a 'Cornelius'"
 categories: historie
 author: Steve Olsen
+layout: post
 ---
 
 Some people would have called our trip foolhardy. But I kept telling myself we were acting on faith.

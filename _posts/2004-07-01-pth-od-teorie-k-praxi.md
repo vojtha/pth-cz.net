@@ -2,6 +2,7 @@
 title:  "Pražský Tyrannus Hall - od teorie k praxi"
 author: Martin Šanda
 categories: historie
+layout: post
 ---
 
 Převzato z [Časopis Církve bratrské (archiv)](http://www.i-brana.cz/rodina/cislo.php?0406_pth).

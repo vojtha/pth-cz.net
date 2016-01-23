@@ -2,6 +2,7 @@
 title:  "Tyrannus Hall Journey"
 categories: historie
 author: Charles Corwin
+layout: post
 ---
 
 

@@ -2,6 +2,7 @@
 title:  "History of THs by Charles Corwin"
 categories: historie
 author: Charles Corwin
+layout: post
 ---
 
 
