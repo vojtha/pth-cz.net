@@ -238,9 +238,12 @@ body {
   }
 
   .caption {
-    text-align: center;
     margin-top: 0;
     padding-top: 0;
+
+    * {
+      text-align: center;
+    }
 
     h3 {
       margin-top: 15px;
