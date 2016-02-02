@@ -25,6 +25,7 @@ defaults:
   -
     scope:
       path: "pages"
+      type: "pages"
     values:
       layout: "page"
   -
