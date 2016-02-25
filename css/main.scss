@@ -6,3 +6,18 @@ $base-url: "{{ site.baseurl }}";
 
 @import "base";
 
+.page {
+  @import "page";
+}
+
+.index {
+  @import "index";
+}
+
+.contact {
+  @import "contact";
+}
+
+.telocvicna {
+  @import "telocvicna";
+}

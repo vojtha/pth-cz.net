@@ -1,0 +1,106 @@
+& {
+  background: white;
+  padding-top: $navbar-height;
+}
+
+.navbar-default {
+  .navbar-toggle, .navbar-toggle:hover, .navbar-toggle:focus {
+    border-color: white;
+    background: transparent;
+
+    .icon-bar {
+      background-color: white;
+    }
+  }
+
+  .navbar-collapse {
+    &.collapse.in, &.collapsing {
+      background-color: transparentize($main-color, 0.2);
+      margin-top: 16px;
+      height: 100%;
+    }
+  }
+}
+
+.content {
+  margin-bottom: 50px;
+
+  p, li {
+    font-size: 20px;
+    text-align: justify;
+
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+
+  .lead {
+    font-size: 24px;
+
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
+
+  h1, h2, h3, h4, h5 {
+    color: $main-color;
+  }
+
+  h1 {
+    margin-top: 40px;
+  }
+
+  h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    margin-top: 20px;
+  }
+}
+
+.transition {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.animated-header {
+  background: $header-background;
+
+  @extend .transition;
+
+  .title {
+    @extend .transition;
+  }
+
+  .icon-logo-simple {
+    @extend .transition;
+    font-size: 52px;
+    margin-top: -18px;
+    margin-right: 10px;
+    float: left;
+  }
+}
+
+.animated-header-shrink {
+  font-size: 100%;
+  padding: 0;
+
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+
+  .title {
+    @extend .transition;
+    display: none;
+  }
+
+  .icon-logo-simple {
+    @extend .transition;
+    font-size: inherit;
+    margin: 0;
+  }
+}
+
