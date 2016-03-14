@@ -67,8 +67,6 @@ We used the time we’d been spared from the ticket line for meetings with the p
 
 Then we took a 26-hour train ride to Prague. As with the other locations, we had names and phone numbers but no set appointments.
 
-Then we took a 26-hour train ride to Prague. As with the other locations, we had names and phone numbers but no set appointments.
-
 He in turn introduced us to leaders interested in THI, including Karel Taschner, General Secretary of Czechoslovakia’s Brethren churches. Through this single contact, God opened the door for my future ministry in Eastern Europe. As this is being written, I am preparing to move with my family to Prague to join the faculty of a developing seminary and head the THI work in Eastern Europe. Julie and I should be there with our children, studying the Czech language, as you read these words.
 
 The trip I’d made with Chuck Corwin and John Winston must have seemed foolish to some. But it strengthened my faith in a God who answers prayer—even as unusual a prayer as mine for “Corneliuses.”
