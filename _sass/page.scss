@@ -75,10 +75,10 @@
     @extend .transition;
   }
 
-  .icon-logo-simple {
+  .icon-logo {
     @extend .transition;
     font-size: 52px;
-    margin-top: -18px;
+    margin-top: -16px;
     margin-right: 10px;
     float: left;
   }
@@ -88,19 +88,24 @@
   font-size: 100%;
   padding: 0;
 
+
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 
   .title {
     @extend .transition;
-    display: none;
+    font-size: inherit;
+    padding-top: 8px;
+    
+    br {
+        display: none;
+    }
   }
 
-  .icon-logo-simple {
+  .icon-logo {
     @extend .transition;
-    font-size: inherit;
-    margin: 0;
+    display: none;
   }
 }
 

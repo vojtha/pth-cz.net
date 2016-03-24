@@ -32,10 +32,14 @@ header {
   }
 
   .icon-logo {
-    font-size: 200px;
+    font-size: 210px;
 
-    @media (max-width: 768px) {
-      font-size: 80px;
+    @media (max-width: 780px) {
+      font-size: 160px;
+    }
+    
+    @media (max-width: 580px) {
+      font-size: 100px;
     }
   }
 
@@ -45,11 +49,16 @@ header {
   }
 
   h1 {
-    font-weight: 700;
-    font-size: 72px;
+    font-weight: 400;
+    font-size: 76px;
+    
 
-    @media (max-width: 768px) {
-      font-size: 28px;
+    @media (max-width: 780px) {
+      font-size: 56px;
+    }
+    
+    @media (max-width: 580px) {
+      font-size: 36px;
     }
   }
 
@@ -58,7 +67,11 @@ header {
     font-weight: 300;
     font-size: 34px;
 
-    @media (max-width: 768px) {
+    @media (max-width: 780px) {
+      font-size: 24px;
+    }
+    
+    @media (max-width: 580px) {
       font-size: 18px;
     }
   }
