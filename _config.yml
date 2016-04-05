@@ -11,7 +11,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Webové stránky vysokoškolského učednického společenství mladých křesťanů v Praze.
   Informace o naší vizi, historii a pro uchazeče o vstup.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://pth-cz.net"
 
 # Build settings
