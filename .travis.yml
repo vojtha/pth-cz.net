@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.1
 
-script: jekyll build && htmlproofer ./_site
+script: jekyll build && htmlproofer --verbose ./_site
 
 branches:
   only:
