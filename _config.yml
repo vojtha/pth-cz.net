@@ -20,6 +20,11 @@ markdown: kramdown
 gems:
   - jekyll-redirect-from
 
+exclude: [vendor]
+sass:
+  sass_dir: _sass
+  style: compressed
+
 # Defaults settings
 defaults:
   -
