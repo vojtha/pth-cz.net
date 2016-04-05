@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.1
 
-script: jekyll build && htmlproofer --verbose ./_site
+script: jekyll build && htmlproofer --verbose  --check-favicon --check-html ./_site
 
 branches:
   only:
