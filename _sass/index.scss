@@ -87,5 +87,9 @@ header {
       color: white;
     }
   }
+  
+  .navbar-toggle.collapsed {
+      display: none;
+  }
 }
 
