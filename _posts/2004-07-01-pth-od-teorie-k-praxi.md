@@ -28,7 +28,7 @@ různých povah, různé zbožnosti a různého vztahu k autoritám...
      
 Problémy na sebe nenechaly dlouho čekat. Nastalo tříbení. Nejen proces běž­ného studia, běžných modlitebních 
 či teologických setkání studentů Pražského Tyrannus Hallu, ale i toho, co se skrývá pod povrchem. 
-Proces poznávání, někdy klopotného odpouštění, vyznávání vin.foto S. Olsen Někteří studenti nostalgicky 
+Proces poznávání, někdy klopotného odpouštění, vyznávání. Někteří studenti nostalgicky 
 vzpomínají na první rok. „Pak už to bylo jiné.“
 
 Jaké? „Zkrátka jiné.“ Asi ano. Ale to je důležité, protože i v tom se skrývá proces proměny. 
