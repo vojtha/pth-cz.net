@@ -2,6 +2,16 @@
 
 [![Build Status](https://travis-ci.org/yetty/pth-cz.net.svg?branch=gh-pages)](https://travis-ci.org/yetty/pth-cz.net)
 
+
+## Lokální rozběhání
+
+1. Nainstaluj [Docker Compose](https://docs.docker.com/compose/install/).
+2. Spusť `docker-compose up`
+3. Web bude přístupný z adresy http://localhost:4000/
+
+Pro vypnutí serveru `docker-compose down`.
+
+
 ## Fotky Tyrannů, Ex-Tyrannů a vedení
 
 Fotky se nacházejí v adresáři `/images/tyranni/` a jejich názvy mají podobu `jmeno-prijmeni.jpg` (vždy **bez diakritiky
