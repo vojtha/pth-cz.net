@@ -1,6 +1,6 @@
 jekyll:
     image: jekyll/jekyll:pages
-    command: jekyll serve --watch --incremental
+    command: sh -c "gem install bundler; bundle exec jekyll serve --watch --incremental --host 0.0.0.0"
     ports:
         - 4000:4000
     volumes:

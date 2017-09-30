@@ -17,7 +17,7 @@ url: "http://pth-cz.net"
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-redirect-from
 
 exclude: [vendor]
