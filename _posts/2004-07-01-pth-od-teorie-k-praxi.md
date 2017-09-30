@@ -5,7 +5,7 @@ categories: historie
 layout: post
 ---
 
-Převzato z [Časopis Církve bratrské (archiv)](http://www.i-brana.cz/rodina/cislo.php?0406_pth).
+Převzato z [Časopis Církve bratrské (archiv)](http://brana.cb.cz/rodina/cislo.php?0406_pth).
 
 <p class="lead">
 O Pražské vysokoškolské koleji Tyrannus Hall už jsme v Bratrské rodině psali. (Cesta Pražského Tyrannus Hall, 12/2000). 
@@ -61,4 +61,3 @@ nové věci v otázkách víry a tajemství modlitby.
 * Rozšířil moje obzory. Dostal jsem se do společnosti mladých křesťanů. Každý je jiný, má jiná obdarování. Můj svět se konfrontuje se světy ostatních lidí.
 * Vzal mi hodně času. Dal mi nové přátele. Jsem rád, že jsem mohl poznat Steva a Tomáše.
 * Dal mi duchovní probuzení, nové přá­tele, možnost sdílení takřka bez hranic. Možnost žít dlouhodobě s křesťany. Od­povědi na spoustu otázek, se kterými jsem si nevěděl rady. Setkání s lidmi, jako jsou David Novák a David Javornický, možnost diskuse a velké výměny názorů. Vzal mi trochu času, zoufalost, duchovní prázd­notu a tíhu jha hříchů.
- 

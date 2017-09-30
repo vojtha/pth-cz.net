@@ -5,7 +5,7 @@ categories: historie
 layout: post
 ---
 
-Převzato z [Křesťandnes.cz](http://www.krestandnes.cz/article/v-tyrannus-hall-v-praze-je-kolejni-zivot-ucednickym-spolecenstvim/6845.htm).
+Převzato z Křesťandnes.cz (originální článek již neexistuje).
 
 <p class="lead">Tyrannus Hall je misijní učednická organizace sdružující necelé dvě desítky studentských kolejí v několika zemích světa. 
 Studenti mají možnost prožít léta intenzivního učednictví při společném kolejním životě, zatímco se připravují na 
