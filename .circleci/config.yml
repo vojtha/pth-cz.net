@@ -40,9 +40,9 @@ jobs:
       - run:
           name: Build
           command: |
-            docker run pth build
+            docker run -v jekyll:/srv/jekyl pth build
 
       - run:
           name: HTML Proofer Check
           command: |
-            docker run --entrypoint htmlproofer pth --assume-extension --url-swap "http\://pth-cz.net/:/" ./_site
+            docker run -v jekyll:/srv/jekyll --entrypoint htmlproofer pth --assume-extension --url-swap "http\://pth-cz.net/:/" ./_site
