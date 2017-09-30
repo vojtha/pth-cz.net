@@ -1,15 +1,13 @@
 # pth-cz.net
 
-[![Build Status](https://travis-ci.org/yetty/pth-cz.net.svg?branch=gh-pages)](https://travis-ci.org/yetty/pth-cz.net)
+[![CircleCI](https://circleci.com/gh/yetty/pth-cz.net/tree/gh-pages.svg?style=svg&circle-token=baf7968204c3d86f106c0e928ee8cfc368e9ec86)](https://circleci.com/gh/yetty/pth-cz.net/tree/gh-pages)
 
 
 ## Lokální rozběhání
 
-1. Nainstaluj [Docker Compose](https://docs.docker.com/compose/install/).
-2. Spusť `docker-compose up`
+1. Nainstaluj [Docker](https://docs.docker.com/engine/installation/).
+2. Spusť `docker run -p 4000:4000 -v $(pwd):/srv/jekyll pth`
 3. Web bude přístupný z adresy http://localhost:4000/
-
-Pro vypnutí serveru `docker-compose down`.
 
 
 ## Fotky Tyrannů, Ex-Tyrannů a vedení
