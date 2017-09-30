@@ -40,7 +40,7 @@ jobs:
       - run:
           name: Build
           command: |
-            docker run -v jekyll:/srv/jekyl pth build
+            docker run -v jekyll:/srv/jekyll pth build
 
       - run:
           name: HTML Proofer Check
