@@ -1,7 +1,6 @@
 version: 2
 jobs:
   build:
-    working_directory: /app
     docker:
       - image: docker:latest
 
@@ -41,9 +40,9 @@ jobs:
       - run:
           name: Build
           command: |
-            docker run -v $(pwd):/srv/jekyll pth build
+            docker run -v pth build
 
       - run:
           name: HTML Proofer Check
           command: |
-            docker run -v $(pwd):/srv/jekyll --entrypoint htmlproofer pth --assume-extension --url-swap "http\://pth-cz.net/:/" ./_site
+            docker run -v --entrypoint htmlproofer pth --assume-extension --url-swap "http\://pth-cz.net/:/" ./_site
