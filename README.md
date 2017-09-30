@@ -1,7 +1,6 @@
 # pth-cz.net
 
-[![CircleCI](https://circleci.com/gh/yetty/pth-cz.net/tree/gh-pages.svg?style=svg&circle-token=baf7968204c3d86f106c0e928ee8cfc368e9ec86)](https://circleci.com/gh/yetty/pth-cz.net/tree/gh-pages)
-
+[![CircleCI](https://circleci.com/gh/pth-cz/pth-cz.net/tree/gh-pages.svg?style=svg&circle-token=baf7968204c3d86f106c0e928ee8cfc368e9ec86)](https://circleci.com/gh/pth-cz/pth-cz.net/tree/gh-pages)
 
 ## Lokální rozběhání
 
