@@ -40,6 +40,9 @@ jobs:
       - run:
           name: Build
           command: |
+            echo $pwd
+            ls
+            ls $pwd
             docker run -v $(pwd):/srv/jekyll pth build
 
       - run:
