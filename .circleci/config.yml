@@ -1,0 +1,48 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: docker:latest
+
+    steps:
+      - checkout
+      - setup_remote_docker
+
+      - restore_cache:
+          keys:
+            - app-{{ .Branch }}
+          paths:
+            - /caches/pth.tar
+
+      - run:
+          name: Load Docker image layer cache
+          command: |
+            set +o pipefail
+            docker load -i /caches/pth.tar | true
+
+      - run:
+          name: Build app image
+          command: |
+            docker build --cache-from=pth -t pth .
+
+      - run:
+          name: Save Docker image layer cache
+          command: |
+            mkdir -p /caches
+            docker save -o /caches/pth.tar pth
+
+      - save_cache:
+          name: Save Docker images to cache
+          key: app-{{ .Branch }}
+          paths:
+            - /caches/pth.tar
+
+      - run:
+          name: Build
+          command: |
+            docker run -v $(pwd):/srv/jekyll pth build
+
+      - run:
+          name: HTML Proofer Check
+          command: |
+            docker run -v $(pwd):/srv/jekyll --entrypoint htmlproofer pth --assume-extension --url-swap "http\://pth-cz.net/:/" ./_site
